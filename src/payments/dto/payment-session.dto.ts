@@ -2,6 +2,7 @@ import { Type } from "class-transformer";
 import { ArrayMinSize, IsArray, IsNumber, IsPositive, IsString, ValidateNested } from "class-validator";
 
 export class PaymentSessionDto{
+    
     @IsString()
     orderId:string;
 
@@ -16,6 +17,7 @@ export class PaymentSessionDto{
 }
 
 export class PaymentSessionItemDto{
+    
     @IsString()
     name:string;
 
